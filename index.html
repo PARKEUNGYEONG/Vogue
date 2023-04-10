@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EXAM01</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/exam01style.css">
+  <script src="js/jquery-2.1.1.min.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 트리거 버튼 -->
+    <a href="#" class="btnMenu"><i class="fas fa-bars"></i></a>
+
+    <!-- 내비게이션 바 -->
+    <nav>
+      <h1><img src="imgs/logo.png"></h1>
+      <ul>
+        <li><a href="#">homme</a></li>
+        <li><a href="#">girl</a></li>
+        <li><a href="#">kids</a></li>
+      </ul>
+    </nav>
+
+    <!-- 3개의 컨텐츠 박스 -->
+    <section>
+      <div class="box1 on">
+        <p><strong>vogue homme</strong></p>
+        <p></p>
+        <p>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+        </p>
+        <p></p>
+        <p><span>travis crown</span></p>
+        <p></p>
+        <p>
+          <video id="vid" loop autoplay preload muted>
+            <source src="media/vid.mp4" type="video/mp4">
+          </video>
+        </p>
+        <p></p>
+        <p><span>best qualified goods</span></p>
+        <p></p>
+        <p><span>sports</span></p>
+      </div>
+
+      <div class="box2">
+        <p><span>tremendous</span></p>
+        <p></p>
+        <p><strong>vogue girl</strong></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p><span>accessories</span></p>
+        <p></p>
+        <p><span>jewelry</span></p>
+        <p></p>
+        <p></p>
+      </div>
+
+      <div class="box3">
+        <p></p>
+        <p><span>play & dolls</span></p>
+        <p></p>
+        <p><strong>vogue kids</strong></p>
+        <p></p>
+        <p><span>clothes</span></p>
+        <p></p>
+      </div>
+    </section>
+  </div>
+  <script>document.getElementById('vid').play();</script>
+</body>
+</html>
